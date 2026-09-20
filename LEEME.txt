@@ -1,0 +1,21 @@
+CardEX 1.11.0 — actualización sobre 1.10.0
+
+INSTALACIÓN
+1. Extrae el ZIP y sustituye index.html en la raíz de tu repositorio.
+2. Conserva toda la carpeta data y los workflows existentes. No borres el repositorio.
+3. Espera a que GitHub Pages publique el cambio y recarga Safari. En Herramientas avanzadas debe aparecer v1.11.0.
+No hace falta ejecutar «Ampliar índice visual PCI»: esta actualización cambia el reconocimiento, no las referencias.
+
+CAMBIOS
+- Se eliminan los selectores de holográfico y aniversario.
+- Todas las búsquedas incluyen las colecciones instaladas, incluido el suplemento de aniversario existente.
+- Control de reflejos automático; foto clara: una captura. Posibles reflejos: hasta tres capturas que superen el control de calidad. Se conservan los originales y la mejor toma.
+- Comparación simétrica EN/JA de detalles de título y pie, además del OCR. No se decide el idioma por la ilustración sola.
+- Evidencia insuficiente o contradictoria: no se propone automáticamente una identidad con idioma dudoso.
+
+ALCANCE
+El detector de reflejos es una heurística, no certifica el acabado holográfico. No se añaden referencias nuevas ni se amplía la cobertura japonesa/aniversario en este paquete. Requiere los archivos de datos de las actualizaciones anteriores. No garantiza reconocer cualquier carta.
+Las pruebas verifican el arranque JavaScript, captura/cancelación, límites de tomas y referencias EN/JA con ilustración compartida. No se ha probado con cámara física de iPhone.
+
+PRUEBA RECOMENDADA
+Escanea una carta inglesa, una japonesa y una holográfica de las que daban problemas. Comprueba nombre, número, colección e idioma. Si hay fallo, comparte la fotografía frontal original guardada y el resultado mostrado; una captura de pantalla del visor pierde detalle.
