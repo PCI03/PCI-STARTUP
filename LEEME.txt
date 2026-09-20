@@ -1,21 +1,14 @@
-CardEX 1.11.0 — actualización sobre 1.10.0
+CardEX v1.12.0
 
-INSTALACIÓN
-1. Extrae el ZIP y sustituye index.html en la raíz de tu repositorio.
-2. Conserva toda la carpeta data y los workflows existentes. No borres el repositorio.
-3. Espera a que GitHub Pages publique el cambio y recarga Safari. En Herramientas avanzadas debe aparecer v1.11.0.
-No hace falta ejecutar «Ampliar índice visual PCI»: esta actualización cambia el reconocimiento, no las referencias.
+Sustituye index.html en la raíz del repositorio. Conserva data y los workflows.
+Espera a que GitHub Pages termine la publicación y recarga Safari. Comprueba v1.12.0 en Herramientas avanzadas. No necesitas ampliar el índice visual.
 
-CAMBIOS
-- Se eliminan los selectores de holográfico y aniversario.
-- Todas las búsquedas incluyen las colecciones instaladas, incluido el suplemento de aniversario existente.
-- Control de reflejos automático; foto clara: una captura. Posibles reflejos: hasta tres capturas que superen el control de calidad. Se conservan los originales y la mejor toma.
-- Comparación simétrica EN/JA de detalles de título y pie, además del OCR. No se decide el idioma por la ilustración sola.
-- Evidencia insuficiente o contradictoria: no se propone automáticamente una identidad con idioma dudoso.
+- Una sola captura frontal aceptada. Conserva el control de calidad y la corrección de perspectiva; ya no solicita tres ángulos.
+- Español/inglés: palabras distintivas del texto de reglas y código impreso del idioma, combinados con la comparación visual existente.
+- La candidata más probable aparece directamente cuando hay evidencia suficiente, con nombre, imagen y datos. Una estimación se indica como «Mi mejor candidata · sin confirmar».
+- Los resultados contradictorios o sin coincidencia suficiente no se presentan como identificaciones correctas.
+- El reverso sigue formando parte del flujo anterior.
 
-ALCANCE
-El detector de reflejos es una heurística, no certifica el acabado holográfico. No se añaden referencias nuevas ni se amplía la cobertura japonesa/aniversario en este paquete. Requiere los archivos de datos de las actualizaciones anteriores. No garantiza reconocer cualquier carta.
-Las pruebas verifican el arranque JavaScript, captura/cancelación, límites de tomas y referencias EN/JA con ilustración compartida. No se ha probado con cámara física de iPhone.
+Pruebas realizadas: arranque JavaScript; captura y cancelación; una sola toma; idioma ES/EN con vocabulario, código y ambigüedad; orden de candidatas; propuesta directa; referencias EN/JA compartiendo ilustración. Pruebas de lógica y archivos de referencia, no cámara física de iPhone. No garantiza el acierto en todos los casos.
 
-PRUEBA RECOMENDADA
-Escanea una carta inglesa, una japonesa y una holográfica de las que daban problemas. Comprueba nombre, número, colección e idioma. Si hay fallo, comparte la fotografía frontal original guardada y el resultado mostrado; una captura de pantalla del visor pierde detalle.
+Para el feedback: prueba inglés, español y una holográfica. Si falla, adjunta el frontal original y el resultado. Las fotos concretas permitirán ajustar el OCR y la comparación con datos reales.
